@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+.nav {
+    background-color: rgb(230, 106, 61);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    font-family: "Copperplate", sans-serif;
+    text-transform: uppercase;
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav u1 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+.nav li.active {
+    background-color: #bddcb1;  
+}
+
+.nav li.hover {
+    background-color: #777;
+
+}
