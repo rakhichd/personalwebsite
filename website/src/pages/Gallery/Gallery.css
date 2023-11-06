@@ -3,7 +3,7 @@
   }
 
 .Gallery-header {
-    background-color: #282c34;
+    background-color: #000000;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,8 +11,16 @@
     justify-content: center;
     font-size: calc(100px + 2vmin);
     color: white;
+    font-family: 'Inter', sans-serif;
   } 
 
   .description {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;;
+  }
+
+  .img1 {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default bottom margin */
+    margin: 20px auto; /* Add margin to center the image horizontally and create spacing */
   }

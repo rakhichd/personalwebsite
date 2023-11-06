@@ -3,7 +3,7 @@
   }
 
 .About-header {
-    background-color: #282c34;
+    background-color: #050505;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,9 +11,43 @@
     justify-content: center;
     font-size: calc(100px + 2vmin);
     color: white;
-
+    font-family: 'Inter', sans-serif;
   } 
 
 .description {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Inter', sans-serif;
+  text-align: start;
+  line-height: 1.5;
+  }
+
+
+#signUpForm {
+    background-color: #000000;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color:rgb(232, 166, 228);
+}
+
+button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-style:double;
+    cursor: pointer;
 }
